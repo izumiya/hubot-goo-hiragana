@@ -1,0 +1,23 @@
+{
+  "name": "hubot-goo-hiragana",
+  "version": "0.0.1",
+  "description": "gooラボAPIを使って日本語文字列をひらがなに変換する",
+  "main": "goo-hiragana.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/izumiya/hubot-goo-hiragana.git"
+  },
+  "keywords": [
+    "goo",
+    "hiragana"
+  ],
+  "author": "izumiya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/izumiya/hubot-goo-hiragana/issues"
+  },
+  "homepage": "https://github.com/izumiya/hubot-goo-hiragana"
+}
