@@ -1,6 +1,6 @@
 {
   "name": "hubot-goo-hiragana",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "gooラボAPIを使って日本語文字列をひらがなに変換する",
   "main": "index.coffee",
   "scripts": {

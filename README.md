@@ -18,8 +18,8 @@ gooラボAPIのアプリケーションID
 ## Commands
 
 ```
-hubot hiragana <query> - <query> でひらがなに変換して返す。
+hubot これ読んで <query> - <query>を読み上げます
 ```
 
-<img src="http://u.xgoo.jp/img/supportedbygoo.png" width="100px" >
+<img src="http://u.xgoo.jp/img/supportedbygoo.png" width="100px">
 
