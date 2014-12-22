@@ -1,8 +1,19 @@
+# Description:
+#   漢字を読みます！
+#
+# Configuration:
+#   HUBOT_GOO_API_TOKEN - gooラボAPIのアプリケーションID
+#
+# Commands:
+#   hubot これ読んで <query> - <query>を読み上げます
+#
+# Author:
+#   izumiya
 module.exports = (robot) ->
-  robot.respond /hiragana( (.*))?/i, (msg) ->
+  robot.respond /これ読んで( (.*))?/i, (msg) ->
     qs = require 'querystring'
     data = qs.stringify
-      app_id: process.env.GOO_API_TOKEN,
+      app_id: process.env.HUBOT_GOO_API_TOKEN,
       sentence: msg.match[2],
       output_type: 'hiragana'
     msg.http("https://labs.goo.ne.jp/api/hiragana")

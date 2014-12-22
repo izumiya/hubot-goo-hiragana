@@ -5,7 +5,7 @@ gooラボAPIを使って日本語文字列をひらがなに変換する hubot-s
 
 ## Configuration
 
-**GOO_API_TOKEN**
+**HUBOT_GOO_API_TOKEN**
 
 gooラボAPIのアプリケーションID
 
